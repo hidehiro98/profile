@@ -1,0 +1,94 @@
+/* Here goes your CSS */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight:  300;
+  background-color: #F7F7F7;
+  line-height: 20px;
+  color: #aaaaaa;
+}
+
+h1 {
+  font-family: Montserrat;
+  font-size: 30px;
+  color: #111111;
+}
+
+h2, h3 {
+  font-weight: 400;
+  color: #777777;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 20px
+}
+
+a {
+  color: #DDDDDD;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #D23333;
+}
+
+/*CUSTOM CSS*/
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  width: 500px;
+  border-radius: 3px;
+  padding: 20px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  border: 1px solid lightgrey;
+}
+
+.img-width {
+  width: 100px;
+  margin: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline {
+  padding-left: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.btn-red {
+  background-color: #D23333;
+  color: white;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.btn-red:hover {
+  background-color: #C61414;
+  color: white;
+}
+
+#profile_pic {
+  width: 70px;
+  border-radius: 50%;
+  border: 2px solid lightgrey;
+}
+
+#name {
+  color: #D23333;
+}
